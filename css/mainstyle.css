@@ -2,7 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
-    overflow: hidden;
+    overflow-y: scroll;
 }
 
 #navBox {
@@ -141,8 +141,8 @@ header .line {
 
 .cenContentClassBig {
     width: 100%;
-    /*    background-color: purple;*/
-    overflow: hidden;
+/*        background-color: purple;*/
+
     position: absolute;
     margin: auto;
     top: 0px;
@@ -150,12 +150,14 @@ header .line {
     transition: all .20s ease-in-out;
     -moz-transition: all .20s ease-in-out;
     -webkit-transition: all .20s ease-in-out;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .cenContentClass {
     width: 100%;
-    /*    background-color: purple;*/
-    overflow: hidden;
+/*        background-color: purple;*/
+
     position: absolute;
     margin: auto;
     top: 0px;
@@ -163,6 +165,8 @@ header .line {
     transition: all .20s ease-in-out;
     -moz-transition: all .20s ease-in-out;
     -webkit-transition: all .20s ease-in-out;
+        margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .textCenClass {
@@ -350,13 +354,13 @@ h2 {
         width: 600px;
     }
     .cenContentClass {
-        height: 560px !important;
+        height: 570px !important;
     }
     .cenContentClassBig {
-        height: 560px !important;
+        height: 590px !important;
     }
     .animFix {
-        height: 600px !important;
+        height: 620px !important;
     }
     #workDisplay {
         width: 590px;
@@ -453,7 +457,6 @@ h2 {
     }
 }
 
-
 @media only screen and (max-width: 620px) {
     .selected {
         background-color: white;
@@ -497,7 +500,7 @@ h2 {
         width: 380px;
     }
     .cenContentClassBig {
-        height: 490px !important;
+        height: 540px !important;
     }
     .cenContentClass {
         height: 440px !important;
