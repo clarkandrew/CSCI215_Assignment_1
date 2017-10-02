@@ -1,0 +1,508 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+#navBox {
+    position: absolute;
+    height: calc(100% - 20px);
+    width: 250px;
+    background-color: white;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    z-index: 1;
+    overflow: hidden;
+}
+
+.selected {
+    color: #212121 !important;
+    /*     background-color: #c4c4c4;*/
+    font-size: 25px !important;
+    font-weight: 800 !important;
+    letter-spacing: 6px !important;
+}
+
+section {
+    width: calc(100% - 250px);
+    height: 100%;
+    margin-left: 250px;
+    position: absolute;
+    background-image: url("../images/bg.jpg");
+    overflow: hidden;
+}
+
+#viewPageFrame {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+header {
+    text-align: center;
+    /*    background-color: red;*/
+    padding: 0px;
+    margin: 0px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    z-index: 1001;
+    background-color: white;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+footer .small {
+    font-size: 10px;
+}
+
+footer a {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.footWrap {
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+header t {
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #2d2d2d;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    opacity: .2;
+}
+
+header .line {
+    margin-top: 8px;
+}
+
+.navButton {
+    width: 100%;
+    height: 40px;
+    /*    background-color: red;*/
+    text-align: center;
+    line-height: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all .65s ease-in-out;
+    -moz-transition: all .65s ease-in-out;
+    -webkit-transition: all .65s ease-in-out;
+    color: #424242;
+    font-size: 17px;
+}
+
+.navButton:hover {
+    background-color: #c4c4c4;
+    transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -webkit-transition: all .20s ease-in-out;
+    color: white;
+}
+
+#navBottomLine {
+    width: 100%;
+    height: 5px;
+    background-color: #c4c4c4;
+    display: none;
+}
+
+.cenContent {
+    width: 100%;
+    /*    background-color: red;*/
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -webkit-transition: all .20s ease-in-out;
+}
+
+.cenContentClassBig {
+    width: 100%;
+    /*    background-color: purple;*/
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -webkit-transition: all .20s ease-in-out;
+}
+
+.cenContentClass {
+    width: 100%;
+    /*    background-color: purple;*/
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -webkit-transition: all .20s ease-in-out;
+}
+
+.textCenClass {
+    margin: auto;
+    /*    background-color: blue;*/
+    width: 860px;
+    overflow: hidden;
+    transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -webkit-transition: all .20s ease-in-out;
+    text-align: center;
+}
+
+.textCenClass .caption {
+    color: #212121;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.textCenClass h2 {
+    font-size: 40px;
+}
+
+.textCenClass t {
+    color: #212121;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.textCenClass a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -webkit-transition: all .20s ease-in-out;
+}
+
+.textCenClass a:hover {
+    opacity: .5;
+}
+
+.textCenClass h4 {
+    font-size: 18px;
+    padding-top: 15px;
+    margin: 0px;
+    font-weight: 500;
+    color: #212121;
+    letter-spacing: 2px;
+}
+
+.textCen {
+    margin: auto;
+    /*    background-color: blue;*/
+    width: 820px;
+    overflow: hidden;
+    transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -webkit-transition: all .20s ease-in-out;
+}
+
+#workDisplay {
+    width: 820px;
+    height: 461px;
+    /*    background-color: red;*/
+    margin: auto;
+    margin-top: 10px;
+    transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -webkit-transition: all .20s ease-in-out;
+    overflow: hidden;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    margin-bottom: 4px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 4px;
+    transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -webkit-transition: all .20s ease-in-out;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 4px;
+    transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -webkit-transition: all .20s ease-in-out;
+}
+
+.pageDiv {
+    width: 620px;
+    opacity: .8;
+    height: 1px;
+    background-color: white;
+    opacity: .5;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.aboutBold {
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.aboutDetail {
+    color: white;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.aboutSpace {
+    color: white;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 20px;
+    opacity: .5;
+    line-height: 30px;
+}
+
+.mobileInfo {
+    display: none;
+}
+
+
+/*Mobile*/
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 880px) {
+    .wdFrame {
+        width: 1680px;
+        height: 2906px;
+        border: 0;
+        -ms-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -ms-transform-origin: 0 0;
+        -moz-transform-origin: 0 0;
+        -o-transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .wdFrame {
+        width: 1180px;
+        height: 2906px;
+        border: 0;
+        -ms-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -ms-transform-origin: 0 0;
+        -moz-transform-origin: 0 0;
+        -o-transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+    }
+    .textCenClass {
+        width: 600px;
+    }
+    .cenContentClass {
+        height: 560px !important;
+    }
+    .cenContentClassBig {
+        height: 560px !important;
+    }
+    .animFix {
+        height: 600px !important;
+    }
+    #workDisplay {
+        width: 590px;
+        height: 332px;
+    }
+    #navBottomLine {
+        display: block;
+    }
+    #navBox {
+        width: 100%;
+        height: 98px;
+    }
+    #navBox #headShot {
+        display: none;
+    }
+    nav .line {
+        display: none;
+    }
+    header .line {
+        margin-top: 10px;
+    }
+    header t {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    nav {
+        display: block;
+        text-align: center;
+    }
+    .navButton {
+        display: inline-block;
+        width: 100px;
+        /*        background-color: red;*/
+        font-size: 19px;
+        width: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+        height: 35px;
+        font-weight: 300;
+    }
+    section {
+        width: 100%;
+        height: calc(100% - 140px);
+        margin-top: 98px;
+        margin-left: 0px;
+    }
+    .selected {
+        background-color: white;
+        color: #212121 !important;
+        font-weight: 500!important;
+        font-size: 20px!important;
+        letter-spacing: 2px!important;
+    }
+    .navButton:hover {
+        background-color: white;
+        color: #919191 !important;
+    }
+    .footWrap {
+        width: 100%;
+        height: 42px;
+        padding: 3px;
+    }
+    footer {
+        width: 100%;
+    }
+    .desktopInfo {
+        display: none;
+    }
+    .mobileInfo {
+        display: block;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 37px;
+    }
+    .textCen {
+        width: 600px;
+    }
+    .cenContent {
+        height: 350px !important;
+    }
+    .aboutBold {
+        font-size: 21px;
+    }
+    .aboutDetail {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .aboutSpace {
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 620px) {
+    .selected {
+        background-color: white;
+        color: #212121 !important;
+        font-weight: 500!important;
+        font-size: 14px!important;
+        letter-spacing: 2px!important;
+    }
+    .wdFrame {
+        width: 880px;
+        height: 2906px;
+        border: 0;
+        -ms-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -ms-transform-origin: 0 0;
+        -moz-transform-origin: 0 0;
+        -o-transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+    }
+    #workDisplay {
+        width: 370px;
+        height: 208px;
+    }
+    .navButton {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 21px;
+    }
+    .textCen {
+        width: 380px;
+    }
+    .textCenClass {
+        width: 380px;
+    }
+    .cenContentClassBig {
+        height: 490px !important;
+    }
+    .cenContentClass {
+        height: 440px !important;
+    }
+    .cenContent {
+        height: 370px !important;
+    }
+}

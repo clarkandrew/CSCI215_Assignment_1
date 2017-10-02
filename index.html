@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+
+    <title>Andrew Clark | Portfolio</title>
+
+</head>
+
+<body>
+
+    <div id="navBox">
+        <header >
+            <img width="75%" id="headShot" src="images/headshot.jpg"><br>
+            <t>ANDREW CLARK</t>
+
+            <div class="line"></div>
+        </header>
+
+
+        <nav>
+            <div onclick="loadPage('about')" id="about" class="navButton selected">
+                <t>ABOUT ME</t>
+            </div>
+            <div class="line"></div>
+            <div onclick="loadPage('csci120')" id="csci120" class="navButton">
+                <t>CSCI-120</t>
+            </div>
+            <div class="line"></div>
+            <div onclick="loadPage('csci115')" id="csci115" class="navButton">
+                <t>CSCI-115</t>
+            </div>
+            <div class="line"></div>
+            <div onclick="loadPage('csci215')" id="csci215" class="navButton">
+                <t>CSCI-215</t>
+            </div>
+            <div class="line"></div>
+        </nav>
+
+        <div id="navBottomLine"></div>
+    </div>
+    <footer>
+        <div class="footWrap">
+            <a href="mailto:clarkag@g.cofc.edu">
+                <t>clarkag@g.cofc.edu</t>
+            </a><br>
+            <t class="small">COPYRIGHT © 2017 ANDREW CLARK</t>
+        </div>
+    </footer>
+
+
+    <section>
+        <iframe src="about/index.html" id="viewPageFrame"></iframe>
+
+    </section>
+
+</body>
+
+</html>
