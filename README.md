@@ -1,6 +1,9 @@
 # Assignment_1
 
-## Due 14 Sep 2017, 11:59pm
+### Name: Andrew Clark
+[Link to my website: http://clarkag.students.cofc.edu/portfolio/](http://clarkag.students.cofc.edu/portfolio/)
+
+### Due 14 Sep 2017, 11:59pm
 
 * **Fork** this repository to your GitHub and **Clone** to your computer.
 * Create a folder in your personal CofC webspace called portfolio.
